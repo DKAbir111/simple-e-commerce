@@ -6,6 +6,7 @@ export default function Aside() {
         <aside className="flex flex-col gap-3">
             <Link to={'/admin/createproducts'} className="btn w-full text-white btn-primary">Create Products</Link>
             <Link to={'/admin'} className="btn w-full text-white btn-primary">All Prodcuts</Link>
+            <Link to={'/admin/order'} className="btn w-full text-white btn-primary">View Order</Link>
         </aside>
     )
 }

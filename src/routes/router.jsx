@@ -5,6 +5,7 @@ import AdminLayout from "../components/Admin/AdminLayout";
 import AllProdcuts from "../components/Admin/AllProdcuts";
 import CreateProducts from "../components/Admin/CreateProducts";
 import UpdatedProduct from "../components/Admin/UpdateProduct";
+import OrderedItem from "../components/Admin/OrderedItem";
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
                     {
                         path: '/admin',
                         element: <AllProdcuts />
+                    },
+                    {
+                        path: '/admin/order',
+                        element: <OrderedItem />
                     },
                     {
                         path: '/admin/createproducts',
